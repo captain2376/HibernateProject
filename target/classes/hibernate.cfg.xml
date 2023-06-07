@@ -39,20 +39,15 @@
 		</property>
 
 		<mapping class="cgginterns.hibernate.Student" />
-
-		<mapping class="cgginterns.hibernate.Address" />
-
-		<mapping class="cgginterns.hibernate.map1.Question" />
-
-		<mapping class="cgginterns.hibernate.map1.Answer" />
-
 		<mapping class="cgginterns.hibernate.map.Brand" />
 
 		<mapping class="cgginterns.hibernate.map.Product" />
 
-		<mapping class="cgginterns.hibernate.map2.Employee" />
+		<!-- <mapping class="cgginterns.hibernate.Address" /> <mapping class="cgginterns.hibernate.map1.Question" 
+			/> <mapping class="cgginterns.hibernate.map1.Answer" /> <mapping class="cgginterns.hibernate.map2.Employee" 
+			/> <mapping class="cgginterns.hibernate.map2.Project" /> -->
 
-		<mapping class="cgginterns.hibernate.map2.Project" />
+		<mapping class="cgg.hibernate.sma.StudentApp" />
 
 
 	</session-factory>
